@@ -2,7 +2,7 @@ trigger:
 - main
 
 variables:
-  azureServiceConnectionId: '60e7332c-022f-45fc-8702-0d06696d44ca'
+  azureServiceConnectionId: '59677797-c769-4f81-9970-f6cde4d96225'
   webAppName: 'shivaniecomapp'
   pythonVersion: '3.11'
 
