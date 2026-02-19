@@ -3,7 +3,7 @@ trigger:
 
 variables:
   azureServiceConnectionId: '60e7332c-022f-45fc-8702-0d06696d44ca'
-  webAppName: 'shivaniecommerceapp'
+  webAppName: 'shivaniecomapp'
   pythonVersion: '3.11'
 
 stages:
@@ -48,7 +48,7 @@ stages:
     pool:
       name: TestAgent   # ✅ Self-hosted pool again
 
-    environment: shivaniecommerceapp
+    environment: shivaniecomapp
 
     strategy:
       runOnce:
