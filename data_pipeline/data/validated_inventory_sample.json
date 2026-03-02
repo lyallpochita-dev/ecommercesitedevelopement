@@ -1,0 +1,32 @@
+[
+  {
+    "_id": "INV-000001",
+    "inventory_id": "INV-000001",
+    "product_id": "PROD-00002",
+    "warehouse_id": "WH-002",
+    "stock": {
+      "available": 120,
+      "reserved": 8,
+      "damaged": 1,
+      "reorder_level": 45
+    },
+    "last_updated": "2026-01-02T10:20:00Z",
+    "batch_number": "BATCH-0004",
+    "pipeline_loaded_at": "2026-03-02T00:00:00Z"
+  },
+  {
+    "_id": "INV-000002",
+    "inventory_id": "INV-000002",
+    "product_id": "PROD-00003",
+    "warehouse_id": "WH-003",
+    "stock": {
+      "available": 95,
+      "reserved": 6,
+      "damaged": 0,
+      "reorder_level": 35
+    },
+    "last_updated": "2026-01-02T11:30:00Z",
+    "batch_number": "BATCH-0004",
+    "pipeline_loaded_at": "2026-03-02T00:00:00Z"
+  }
+]

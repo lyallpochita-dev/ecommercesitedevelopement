@@ -1,0 +1,32 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "inventory_id",
+      "product_id",
+      "warehouse_id",
+      "stock",
+      "last_updated"
+    ],
+    "properties": {
+      "_id": { "bsonType": "string" },
+      "inventory_id": { "bsonType": "string" },
+      "product_id": { "bsonType": "string" },
+      "warehouse_id": { "bsonType": "string" },
+      "stock": {
+        "bsonType": "object",
+        "required": ["available", "reserved", "damaged", "reorder_level"],
+        "properties": {
+          "available": { "bsonType": "int", "minimum": 0 },
+          "reserved": { "bsonType": "int", "minimum": 0 },
+          "damaged": { "bsonType": "int", "minimum": 0 },
+          "reorder_level": { "bsonType": "int", "minimum": 0 }
+        }
+      },
+      "last_updated": { "bsonType": "string" },
+      "batch_number": { "bsonType": "string" },
+      "pipeline_loaded_at": { "bsonType": "date" }
+    }
+  }
+}
