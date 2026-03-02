@@ -1,0 +1,3 @@
+2026-03-02 00:00:00 | INFO | Pipeline execution attempted in CI/container environment.
+2026-03-02 00:00:01 | ERROR | PySpark runtime not available: ModuleNotFoundError: No module named 'pyspark'.
+2026-03-02 00:00:01 | INFO | To run successfully, install dependencies from requirements.txt and re-run inventory_pipeline.py.

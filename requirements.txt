@@ -6,3 +6,6 @@ python-multipart
 motor
 azure-storage-blob
 python-dotenv
+
+pyspark
+pymongo
